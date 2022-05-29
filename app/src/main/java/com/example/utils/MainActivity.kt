@@ -14,13 +14,6 @@ import androidx.appcompat.widget.Toolbar
 class MainActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
     private val topLvlDest = setOf(
-        R.id.nav_acelerometro,
-        R.id.nav_audio,
-        R.id.nav_camara,
-        R.id.nav_dictado,
-        R.id.nav_gestos,
-        R.id.nav_gps,
-        R.id.nav_lectura,
         R.id.nav_video
     )
     override fun onCreate(savedInstanceState: Bundle?) {

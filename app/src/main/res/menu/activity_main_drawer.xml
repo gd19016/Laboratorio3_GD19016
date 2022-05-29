@@ -4,34 +4,6 @@
     tools:showIn="navigation_view">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_acelerometro"
-            android:icon="@drawable/ic_menu_acelerometro"
-            android:title="@string/acelerometro" />
-        <item
-            android:id="@+id/nav_audio"
-            android:icon="@drawable/ic_menu_audio"
-            android:title="@string/audio" />
-        <item
-            android:id="@+id/nav_camara"
-            android:icon="@drawable/ic_menu_camara"
-            android:title="@string/camara" />
-        <item
-            android:id="@+id/nav_dictado"
-            android:icon="@drawable/ic_menu_dictado"
-            android:title="@string/dictado" />
-        <item
-            android:id="@+id/nav_gestos"
-            android:icon="@drawable/ic_menu_gestos"
-            android:title="@string/gestos" />
-        <item
-            android:id="@+id/nav_gps"
-            android:icon="@drawable/ic_menu_gps"
-            android:title="@string/gps" />
-        <item
-            android:id="@+id/nav_lectura"
-            android:icon="@drawable/ic_menu_lectura"
-            android:title="@string/lectura" />
-        <item
             android:id="@+id/nav_video"
             android:icon="@drawable/ic_menu_video"
             android:title="@string/video" />

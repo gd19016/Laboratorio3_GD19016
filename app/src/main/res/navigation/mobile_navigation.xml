@@ -3,42 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_acelerometro">
-    <fragment
-        android:id="@+id/nav_acelerometro"
-        android:name="com.example.utils.ui.AcelerometroFragment"
-        android:label="@string/acelerometro"
-        tools:layout="@layout/fragment_acelerometro" />
-    <fragment
-        android:id="@+id/nav_audio"
-        android:name="com.example.utils.ui.AudioFragment"
-        android:label="@string/audio"
-        tools:layout="@layout/fragment_audio" />
-    <fragment
-        android:id="@+id/nav_camara"
-        android:name="com.example.utils.ui.CamaraFragment"
-        android:label="@string/camara"
-        tools:layout="@layout/fragment_camara" />
-    <fragment
-        android:id="@+id/nav_dictado"
-        android:name="com.example.utils.ui.DictadoFragment"
-        android:label="@string/dictado"
-        tools:layout="@layout/fragment_dictado" />
-    <fragment
-        android:id="@+id/nav_gestos"
-        android:name="com.example.utils.ui.GestosFragment"
-        android:label="@string/gestos"
-        tools:layout="@layout/fragment_gestos" />
-    <fragment
-        android:id="@+id/nav_gps"
-        android:name="com.example.utils.ui.GPSFragment"
-        android:label="@string/gps"
-        tools:layout="@layout/fragment_g_p_s" />
-    <fragment
-        android:id="@+id/nav_lectura"
-        android:name="com.example.utils.ui.LecturaFragment"
-        android:label="@string/lectura"
-        tools:layout="@layout/fragment_lectura" />
+    app:startDestination="@+id/nav_video">
     <fragment
         android:id="@+id/nav_video"
         android:name="com.example.utils.ui.VideoFragment"
