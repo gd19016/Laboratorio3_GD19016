@@ -50,6 +50,6 @@
         <item>Toque largo: Ver duración del vídeo</item>
         <item>Swipe rápido a la izquierda: Reiniciar vídeo</item>
         <item>Swipe rápido a la derecha: Terminar vídeo</item>
-        <item>Scroll: Adelantar o atrasar el vídeo</item>
+        <!--<item>Scroll: Adelantar o atrasar el vídeo</item>-->
     </string-array>
 </resources>
