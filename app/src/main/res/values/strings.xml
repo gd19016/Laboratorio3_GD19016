@@ -42,4 +42,14 @@
     <string name="colorazul">valor azul</string>
     <string name="mensajegesto">gestos</string>
     <string name="hello">Aplicación que responde a gestos.</string>
+    <string name="lista_opciones">Listado de gestos disponibles:</string>
+
+    <string-array name="Opciones">
+        <item>Toque simple: Pausar y reanudar reproducción</item>
+        <item>Double toque: Ver momento en reproducción</item>
+        <item>Toque largo: Ver duración del vídeo</item>
+        <item>Swipe rápido a la izquierda: Reiniciar vídeo</item>
+        <item>Swipe rápido a la derecha: Terminar vídeo</item>
+        <item>Scroll: Adelantar o atrasar el vídeo</item>
+    </string-array>
 </resources>

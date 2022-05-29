@@ -2,10 +2,7 @@ package com.example.utils.ui
 
 import android.os.Bundle
 import android.view.*
-import android.widget.MediaController
-import android.widget.TextView
-import android.widget.Toast
-import android.widget.VideoView
+import android.widget.*
 import androidx.fragment.app.Fragment
 import com.example.utils.R
 
@@ -36,6 +33,13 @@ class VideoFragment : Fragment(),
             gDetector!!.onTouchEvent(event)
             true
         }
+        val opciones = resources.getStringArray(R.array.Opciones)
+        val opcionesSpinner: Spinner = fragment.findViewById(R.id.opciones_spinner)
+        val adapter = ArrayAdapter(
+            requireContext(),
+            android.R.layout.simple_spinner_item, opciones
+        )
+        opcionesSpinner.adapter = adapter
         return fragment
     }
     override fun onDown(e: MotionEvent?): Boolean {
